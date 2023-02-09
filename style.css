@@ -1,0 +1,161 @@
+
+        .Navigation {
+            display: flex;
+            justify-content: center;
+        }
+
+        .Navigation div {
+            border-bottom: 1px #ccc solid;
+            border-top: 3px purple solid;
+            padding: 10px 30px 10px 30px;
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+
+        .Nav_current {
+            color: purple;
+        }
+
+        .Nav {}
+
+        .spacing {
+            flex: 1;
+        }
+
+        .main_page {
+            display: flex;
+        }
+
+        .left_side {
+            flex: 1;
+            border-right: 1px #ccc solid;
+        }
+
+        .imag {
+            justify-content: flex-end;
+            display:flex;
+        }
+        
+        .name {
+            justify-content: flex-end;
+            display:flex;
+            margin-right: 105px;
+            line-height: 10px;
+        }
+
+        .position {
+            justify-content: flex-end;
+            display:flex;
+            margin-right: 120px;
+            line-height: 0px;
+        }
+
+        .email {
+            color: purple;
+            justify-content: flex-end;
+            display:flex;
+            margin-right: 50px;
+        }
+        
+        .right_side {
+            flex: 2;
+            margin: 8px;
+        }
+
+        .progress {
+            width: 500px;
+            height: 30px;
+        }
+
+        .progress_header {
+            line-height: 0px;
+        }
+
+        .progress_space {
+            line-height: 0px;
+        }
+
+        .credentials {
+            color: grey;
+        }
+
+        .resume {
+            color: purple;
+        }
+        
+        .pushfooter{
+            position: relative;
+            min-height: 90vh;
+        }
+
+        ul.dashed {
+            list-style-type: none;
+        }
+
+        ul.dashed > li:before {
+            content: "- ";
+        }
+        
+        a {
+            color: grey;
+            text-decoration: none;
+        }
+
+        img {
+            object-fit: cover;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        footer {
+            padding-top: 30px;
+            padding-bottom: 15px;
+            border-top: 1px #ccc solid;
+            text-align: center;
+        }
+
+        th, td {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 100px;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .main_page {
+                flex-direction: column;
+            }
+
+            .left_side {
+                flex: 1;
+                border-bottom: 1px #ccc solid;
+                border-right: 0px;
+            }
+
+            .imag {
+                justify-content: center;
+                display:flex;
+            }
+            
+            .name {
+                justify-content: center;
+                display:flex;
+                margin-right: 0px;
+            }
+    
+            .position {
+                justify-content: center;
+                display:flex;
+                margin-right: 0px;
+            }
+    
+            .email {
+                color: purple;
+                justify-content: center;
+                display:flex;
+                margin-right: 0px;
+            }
+          }
